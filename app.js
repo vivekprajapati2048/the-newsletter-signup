@@ -36,12 +36,12 @@ app.post("/", function(req, res) {
   const jsonData = JSON.stringify(data); // stringify above data
 
   // for batch subscribe and unsubscribe - endpoint/lists/{list_id}
-  const url = "https://us5.api.mailchimp.com/3.0/lists/29b48a69ab";
+  const url = "https://us5.api.mailchimp.com/3.0/lists/XXXXXXX";
 
   // options' in - https.request(url[, options][, callback])
   const options = {
     method: "POST",
-    auth: "vivekprajapati2048:d880d8b06fc66e4e93d4317366c0ecb9-us5"
+    auth: "vivekprajapati2048:XXXXXXXXXXXXXXXXXXXXXXX-usX" //username:API Key
   }
 
   // save into constant - 'request', to send it to mailchimp's server
